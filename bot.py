@@ -8,7 +8,7 @@ from aiogram.types import (
 )
 import aiosqlite
 
-TOKEN = os.getenv("BOT_TOKEN", "ВАШ_ТОКЕН_ЗДЕСЬ")
+TOKEN = os.getenv("BOT_TOKEN", "8057107808:AAH4hRcpWp2IKI_MSl1zEmDUsfeFWdk4QT8")
 ADMIN_PASSWORD = os.getenv("ADMIN_PASS", "adminpass123")
 
 bot = Bot(token=TOKEN)

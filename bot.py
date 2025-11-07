@@ -9,7 +9,7 @@ from aiogram.types import (
 import aiosqlite
 
 TOKEN = os.getenv("BOT_TOKEN", "8057107808:AAH4hRcpWp2IKI_MSl1zEmDUsfeFWdk4QT8")
-ADMIN_PASSWORD = os.getenv("ADMIN_PASS", "adminpass123")
+ADMIN_PASSWORD = os.getenv("ADMIN_PASS", "iadmin")
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()

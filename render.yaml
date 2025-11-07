@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: master-oboev-bot
+    env: python
+    startCommand: python bot.py
+    plan: free
